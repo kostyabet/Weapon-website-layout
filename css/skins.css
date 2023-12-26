@@ -1,0 +1,255 @@
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: #3e4254;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #e9b311;
+	border-radius: 10px;
+}
+
+body{
+	background-color:#161824;
+}
+
+*{
+	margin:0px;
+	padding:0px;
+}
+
+hr{
+	height: 2px;
+	background-color: #e9b311;
+	margin-left: 10px;
+	border-radius: 2px;
+	margin-right: 10px;
+	border: none;
+}
+
+nav{
+	height: 100px;
+	background-color: #20232a;
+}
+
+a{
+	text-decoration: none;
+	color:#bdc3d0;
+	font-family: 'Roboto Slab', serif;
+}
+
+.a{
+	text-decoration: none;
+	color:white;
+	font-family: 'Roboto Slab', serif;
+
+	font-size: 13px;
+	margin-top: 5px;
+
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+.nav_text{
+	margin-top: 35px;
+	font-size: 18px;
+	margin-right:35px;
+}
+
+.NavStyle{
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	margin-right: 550px;
+}
+
+.nav_text:hover{
+	color:#e9b311;
+	transition: .5s;
+}
+
+.nav_icon_weapon{
+	height:145px;
+	margin-top: 5px;
+	position: absolute;
+	margin-left: 20px;
+}
+
+.lang{
+	position: absolute;
+}
+
+.LastNews{
+	background-color:#20232a;
+	height:75px;
+}
+
+.LastNewsStyle{
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	padding-top: 25px;
+}
+
+.LastNewsStyle:hover{
+	color:#e9b311;
+	transition: .3s;
+}
+
+.or{
+	color:#e9b311;
+}
+
+.FAQ_BLOCK{
+	background-color:#20232a ;
+	margin-top: 100px;
+	height: 930px;
+	margin-right: 200px;
+	margin-left: 200px;
+	margin-bottom: 100px;
+	border-radius: 20px;
+}
+
+.footer{
+	background-color: #20232a;
+	height:200px;
+}
+
+.ProjectHeadlineFooter{
+	text-decoration: none;
+	color:#bdc3d0;
+	font-family: 'Roboto Slab', serif;
+	font-size: 14px;
+	margin-left: 100px;
+	margin-top:50px;
+	margin-bottom: 25px;
+}
+
+.AboutProjectFooterInfo{
+	text-decoration: none;
+	color:#919191;
+	font-family: 'Roboto Slab', serif;
+	font-size: 11px;
+	width:300px;
+	margin-left: 100px;	
+}
+
+.AboutProject{
+	position: absolute;
+}
+
+.FAQ_Footer{
+	text-decoration: none;
+	color:#919191;
+    font-family: 'Roboto Slab', serif;
+	margin-left: 1300px;
+	position: absolute;
+	margin-top:80px;
+}
+
+.FAQ_Footer:hover{
+	color:#e9b311;
+	transition: .3s; 
+}
+
+.TermsOfUse_Footer{
+	text-decoration: none;
+	color:#919191;
+	font-family: 'Roboto Slab', serif;
+	margin-left: 1150px;
+	position: absolute;
+	margin-top: 80px; 
+}
+
+.TermsOfUse_Footer:hover{
+	color:#e9b311;
+	transition: .3s; 
+}
+
+#scrollButton {
+	background-color:#161824;
+	border:none;
+	color: #e9b311;
+	height: 75px;
+	width:75px;
+	border-radius: 50%;
+	position: absolute;
+	margin-left: 1420px;
+	margin-top: 57px;
+	transition: background-color 0.5s;
+}
+  
+#scrollButton:hover {
+	cursor: pointer;
+	color: black;
+	background-color: #e9b311;
+	opacity: 1;
+ }
+
+.HowWorkHeadline{
+	text-decoration: none;
+	color:#e9b311;
+	font-family: 'Roboto Slab', serif;
+
+	font-size:20px;
+	padding-top:55px;
+
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+.linkStyle{
+	color: #e9b311;
+}
+
+.linkStyle:hover{
+	color:#bdc3d0;
+	transition: .1s;
+}
+
+.ShortInfoAboutHowItWork{
+	width:1000px;
+	margin-top: 50px;
+	margin-left: 200px;
+	font-size: 18px;
+	color:#e9b311;
+	justify-content: center;
+	align-items: center;
+}
+
+.FAQ_HEADLINE{
+	text-decoration: none;
+	color:#e9b311;
+	font-family: 'Roboto Slab', serif;
+
+	font-size:20px;
+	padding-top:60px;
+
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+.FAQ_KEYS{
+	background-color: #e9b311;
+	height:100px;
+	width:1090px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	border-radius:30px; 
+	margin:20px; 
+}
+
+.FAQ_Text{
+	color:black;
+	
+}
+
+.FAQ_MostPopular{
+	color:black;
+}
