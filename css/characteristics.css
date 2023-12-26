@@ -147,6 +147,7 @@ a{
 	margin-left: 1300px;
 	position: absolute;
 	margin-top:80px; 
+	color:#919191;
 }
 
 .FAQ_Footer:hover{
@@ -178,12 +179,13 @@ a{
 	position: absolute;
 	margin-left: 1420px;
 	margin-top: 57px;
-	opacity: 0.5;
-	transition: opacity 0.3s;
+	transition: background-color 0.5s;
   }
   
   #scrollButton:hover {
 	cursor: pointer;
+	color: black;
+	background-color: #e9b311;
 	opacity: 1;
   }
 

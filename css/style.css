@@ -106,7 +106,7 @@ a{
 .FAQ_BLOCK{
 	background-color:#20232a ;
 	margin-top: 100px;
-	height: 980px;
+	height: 930px;
 	margin-right: 200px;
 	margin-left: 200px;
 	margin-bottom: 100px;
@@ -174,14 +174,15 @@ a{
 	position: absolute;
 	margin-left: 1420px;
 	margin-top: 57px;
-	opacity: 0.5;
-	transition: opacity 0.3s;
-  }
+	transition: background-color 0.5s;
+}
   
-  #scrollButton:hover {
+#scrollButton:hover {
 	cursor: pointer;
+	color: black;
+	background-color: #e9b311;
 	opacity: 1;
-  }
+ }
 
 .HowWorkHeadline{
 	text-decoration: none;
@@ -221,7 +222,7 @@ a{
 	font-family: 'Roboto Slab', serif;
 
 	font-size:20px;
-	padding-top:110px;
+	padding-top:60px;
 
 	justify-content: center;
 	align-items: center;
