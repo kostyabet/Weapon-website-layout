@@ -23,10 +23,18 @@ body{
 hr{
 	height: 2px;
 	background-color: #e9b311;
-	margin-left: 10px;
+	margin-left: 30px;
 	border-radius: 2px;
-	margin-right: 10px;
+	margin-right: 30px;
 	border: none;
+}
+.TermsOfUseStyle{
+	color:#e9b311;
+	font-size: 20px;
+	text-align: left;
+	margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 10px;
 }
 
 nav{
@@ -55,15 +63,15 @@ a{
 
 .nav_text{
 	margin-top: 35px;
-	font-size: 18px;
-	margin-right:35px;
+	font-size: 20px;
+	margin-left: 50px;
 }
 
 .NavStyle{
 	justify-content: center;
 	align-items: center;
 	display: flex;
-	margin-right: 550px;
+	margin-left: 250px;
 }
 
 .nav_text:hover{
@@ -82,23 +90,6 @@ a{
 	position: absolute;
 }
 
-.LastNews{
-	background-color:#20232a;
-	height:75px;
-}
-
-.LastNewsStyle{
-	justify-content: center;
-	align-items: center;
-	display: flex;
-	padding-top: 25px;
-}
-
-.LastNewsStyle:hover{
-	color:#e9b311;
-	transition: .3s;
-}
-
 .or{
 	color:#e9b311;
 }
@@ -106,7 +97,7 @@ a{
 .FAQ_BLOCK{
 	background-color:#20232a ;
 	margin-top: 100px;
-	height: 700px;
+	height: 930px;
 	margin-right: 200px;
 	margin-left: 200px;
 	margin-bottom: 100px;
@@ -147,7 +138,6 @@ a{
 	margin-left: 1300px;
 	position: absolute;
 	margin-top:80px; 
-	color:#919191;
 }
 
 .FAQ_Footer:hover{
@@ -157,16 +147,12 @@ a{
 
 .TermsOfUse_Footer{
 	text-decoration: none;
+	color:#e9b311;
 	color:#919191;
 	font-family: 'Roboto Slab', serif;
 	margin-left: 1150px;
 	position: absolute;
 	margin-top: 80px; 
-}
-
-.TermsOfUse_Footer:hover{
-	color:#e9b311;
-	transition: .3s; 
 }
 
 #scrollButton {
@@ -180,14 +166,14 @@ a{
 	margin-left: 1420px;
 	margin-top: 57px;
 	transition: background-color 0.5s;
-  }
+}
   
-  #scrollButton:hover {
+#scrollButton:hover {
 	cursor: pointer;
 	color: black;
 	background-color: #e9b311;
 	opacity: 1;
-  }
+ }
 
 .HowWorkHeadline{
 	text-decoration: none;
@@ -221,28 +207,13 @@ a{
 	align-items: center;
 }
 
-.MainContentLineStyle{
-	margin-left: 80px;
-	margin-right: 80px;
-}
-
-.MainContentAndreLineStyle{
-	margin-left: 40px;
-	margin-right: 40px;
-	margin-top:10px;
-	height: 1px;
-
-	border-radius: 5px;
-}
-
-.MainContentHeadlineStyle{
-	Margin-top: 20px;
-	font-size: 26px;
-	border-radius: 5px;
-	
+.FAQ_HEADLINE{
 	text-decoration: none;
 	color:#e9b311;
 	font-family: 'Roboto Slab', serif;
+
+	font-size:20px;
+	padding-top:60px;
 
 	justify-content: center;
 	align-items: center;
@@ -252,29 +223,33 @@ a{
 .FAQ_KEYS{
 	background-color: #e9b311;
 	height:100px;
-	font-family: 'Roboto Slab', serif;
 	width:1090px;
 	justify-content: center;
 	align-items: center;
-	font-size: 16px;
-	border-radius:30px; 
-	margin:20px;
-	
 	display: flex;
-	border:none;
-	cursor: pointer;
-	transition: background-color 0.5s;
+	border-radius:30px; 
+	margin:20px; 
 }
 
-.FAQ_KEYS:hover{
-	background-color: #20232a;
-	box-sizing: border-box;
-  	border: 1px solid #e9b311;
- 	padding: 1px;
-	color:#e9b311;
-	transition: .4s;	
+.FAQ_Text{
+	color:black;
+	
 }
 
 .FAQ_MostPopular{
 	color:black;
+}
+
+.Name_Style{
+    color:#e9b311;
+	font-size: 20px;
+	text-align: center;
+    justify-content: center;
+    display: flex;
+	margin: 10px;   
+}
+
+.InBlockLine{
+    margin-left: 80px;
+    margin-right: 80px;
 }
