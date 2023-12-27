@@ -220,14 +220,28 @@ a{
 	justify-content: center;
 	align-items: center;
 }
+.MainContentLineStyle{
+	margin-left: 80px;
+	margin-right: 80px;
+}
 
-.FAQ_HEADLINE{
+.MainContentAndreLineStyle{
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top:10px;
+	height: 1px;
+
+	border-radius: 5px;
+}
+
+.MainContentHeadlineStyle{
+	Margin-top: 20px;
+	font-size: 26px;
+	border-radius: 5px;
+	
 	text-decoration: none;
 	color:#e9b311;
 	font-family: 'Roboto Slab', serif;
-
-	font-size:20px;
-	padding-top:60px;
 
 	justify-content: center;
 	align-items: center;
@@ -237,17 +251,27 @@ a{
 .FAQ_KEYS{
 	background-color: #e9b311;
 	height:100px;
+	font-family: 'Roboto Slab', serif;
 	width:1090px;
 	justify-content: center;
 	align-items: center;
-	display: flex;
+	font-size: 16px;
 	border-radius:30px; 
-	margin:20px; 
+	margin:20px;
+
+	display: flex;
+	border:none;
+	cursor: pointer;
+	transition: background-color 0.5s;
 }
 
-.FAQ_Text{
-	color:black;
-	
+.FAQ_KEYS:hover{
+	background-color: #20232a;
+	box-sizing: border-box;
+  	border: 1px solid #e9b311;
+ 	padding: 1px;
+	color:#e9b311;
+	transition: .4s;	
 }
 
 .FAQ_MostPopular{

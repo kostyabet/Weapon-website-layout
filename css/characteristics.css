@@ -106,7 +106,7 @@ a{
 .FAQ_BLOCK{
 	background-color:#20232a ;
 	margin-top: 100px;
-	height: 980px;
+	height: 700px;
 	margin-right: 200px;
 	margin-left: 200px;
 	margin-bottom: 100px;
@@ -219,4 +219,62 @@ a{
 	color:#e9b311;
 	justify-content: center;
 	align-items: center;
+}
+
+.MainContentLineStyle{
+	margin-left: 80px;
+	margin-right: 80px;
+}
+
+.MainContentAndreLineStyle{
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top:10px;
+	height: 1px;
+
+	border-radius: 5px;
+}
+
+.MainContentHeadlineStyle{
+	Margin-top: 20px;
+	font-size: 26px;
+	border-radius: 5px;
+	
+	text-decoration: none;
+	color:#e9b311;
+	font-family: 'Roboto Slab', serif;
+
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+.FAQ_KEYS{
+	background-color: #e9b311;
+	height:100px;
+	font-family: 'Roboto Slab', serif;
+	width:1090px;
+	justify-content: center;
+	align-items: center;
+	font-size: 16px;
+	border-radius:30px; 
+	margin:20px;
+
+	display: flex;
+	border:none;
+	cursor: pointer;
+	transition: background-color 0.5s;
+}
+
+.FAQ_KEYS:hover{
+	background-color: #20232a;
+	box-sizing: border-box;
+  	border: 1px solid #e9b311;
+ 	padding: 1px;
+	color:#e9b311;
+	transition: .4s;	
+}
+
+.FAQ_MostPopular{
+	color:black;
 }
